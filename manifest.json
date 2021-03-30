@@ -1,7 +1,7 @@
 {
-  "name": "SearchBarAutoFocus",
+  "name": "SearchBar Auto Focus",
   "version": "1.0",
-  "description": "One extension that enables autofocus on search bars for many sites which don't have it naturally",
+  "description": "An extension that enables auto focusing search bars upon website loading for many sites which don't have it naturally.",
   "permissions": ["activeTab"],
   "content_scripts": [{
     "matches": ["*://*/*"],
