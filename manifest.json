@@ -5,7 +5,10 @@
   "permissions": ["activeTab"],
   "content_scripts": [{
     "matches": ["*://*/*"],
-    "js": ["main.js"]
+    "js": [
+      "enabledSites.js",
+      "main.js"
+    ]
   }],
   "manifest_version": 2
 }

@@ -1,6 +1,4 @@
-const enabledSites = {
-    'https?://(www.)?youtube.com/(.*)?': 'input#search'
-};
+const { enabledSites } = globalThis;
 
 function getCurrentUrl() {
     return window.location.href
