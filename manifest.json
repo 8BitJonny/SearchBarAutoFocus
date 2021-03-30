@@ -3,6 +3,16 @@
   "version": "1.0",
   "description": "An extension that enables auto focusing search bars upon website loading for many sites which don't have it naturally.",
   "permissions": ["activeTab"],
+  "icons": {
+    "16": "assets/icon16.png",
+    "32": "assets/icon32.png",
+    "48": "assets/icon48.png",
+    "64": "assets/icon64.png",
+    "96": "assets/icon96.png",
+    "128": "assets/icon128.png",
+    "228": "assets/icon228.png",
+    "256": "assets/icon256.png"
+  },
   "content_scripts": [{
     "matches": ["*://*/*"],
     "js": [
