@@ -3,6 +3,7 @@ A simple Chrome Extension which automatically focuses the search input field upo
 
 ## 📃 Supported Websites
 - Youtube
+- Amazon
 
 ## 👨🏻‍💻 Contribute
 Feel free to a open up a PR to support your favorite website with this auto focus Chrome Extension
